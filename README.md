@@ -112,6 +112,8 @@ It has the following API definition:
 ```
 Class ThumbnailGenerator : Instance
     Function string ThumbnailGenerator:click(string fileType, int cx, int cy, bool hideSky)
+    Function string ThumbnailGenerator:clickTexture(string fileType, int cx, int cy, bool hideSky)
+    Property int ThumbnailGenerator.GraphicsMode
 ```
 
 Note that this service **does not work** immediately, it will crash Roblox if it isn't setup correctly.<br/>
